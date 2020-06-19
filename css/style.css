@@ -763,9 +763,26 @@ h1, h2, h3, h4, h5, h6, figure {
 #fh5co-counter .feature-center:hover .counter {
   color: #fff;
 }
+@media screen and (max-width: 991px) {
+  
+  #fh5co-counter .feature-center {
+    margin-bottom: 30px;
+  }
+  .feature-center{
+    justify-self: center;
+    align-self: center;
+  }
+  .icon svg{
+    width: 200px;
+  }
+}
+
 @media screen and (max-width: 768px) {
   #fh5co-counter .feature-center {
     margin-bottom: 30px;
+  }
+  .icon svg{
+    width: 200px;
   }
 }
 #fh5co-counter .icon {
@@ -1033,7 +1050,7 @@ h1, h2, h3, h4, h5, h6, figure {
   letter-spacing: 1px;
   font-size: 12px;
 }
-@media screen and (max-width: 768px) {
+@media screen and (max-width:             px) {
   .project-grid .desc {
     bottom: 0;
   }

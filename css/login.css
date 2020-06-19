@@ -18,8 +18,8 @@ body{
     padding: 50px;
     border-radius: 15px;
     background-color: rgb(46,54,85);
-    -webkit-box-shadow: 10px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
-    -moz-box-shadow: 10px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
+    -webkit-box-shadow: 15px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 15px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
     box-shadow: 15px 30px 30px 0px rgba(0, 0, 0, 0.75) !important;
 }
 .login-box h1{
@@ -90,3 +90,14 @@ input::placeholder{
     /* fill: rgb(247,56,89); */
 }
 
+@media screen and (max-width: 548px){
+    body{
+        background-color: rgb(46,54,85);
+        
+    }
+    .login-box{
+        -webkit-box-shadow: none !important;
+        -moz-box-shadow: none !important;
+        box-shadow: none !important;
+    }
+}
