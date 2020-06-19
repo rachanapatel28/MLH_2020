@@ -9,7 +9,7 @@ body{
     background-size: cover;
 }
 .login-box{
-    width: 300px;
+    width: 400px !important;
     position:absolute;
     top: 50%;
     left: 50%;
@@ -18,8 +18,12 @@ body{
     padding: 50px;
     border-radius: 15px;
     background-color: rgb(46,54,85);
+    -webkit-box-shadow: 10px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
+    -moz-box-shadow: 10px 30px 30px 30px rgba(0, 0, 0, 0.75) !important;
+    box-shadow: 15px 30px 30px 0px rgba(0, 0, 0, 0.75) !important;
 }
 .login-box h1{
+    color: white;
     float: left;
     font-size: 40px;
     border-bottom: 6px solid;
@@ -75,14 +79,14 @@ input::placeholder{
 .back-btn{
     margin: 10px;
     padding: 10px;
-    width: 35px;
-    height: 35px;
+    width: 50px;
 }
 .back-btn svg{
-    fill: #fff;
+    fill: rgba(46, 54, 85, 0.5);
 }
 
 .back-btn svg:hover   {
     fill: rgb(46,54,85);
     /* fill: rgb(247,56,89); */
 }
+

@@ -913,6 +913,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 .feature-center {
+  text-align: center;
   padding: 30px;
   float: left;
   width: 100%;
@@ -922,6 +923,9 @@ h1, h2, h3, h4, h5, h6, figure {
   -webkit-transition: 0.3s;
   -o-transition: 0.3s;
   transition: 0.3s;
+}
+.icon svg{
+  fill: #5d5d5d;
 }
 @media screen and (max-width: 768px) {
   .feature-center {
@@ -976,6 +980,10 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 .feature-center:hover a:hover, .feature-center:focus a:hover {
   color: #fff;
+}
+
+.feature-center:hover .icon svg{
+  fill: #000;
 }
 @media screen and (max-width: 768px) {
   .feature-center:hover, .feature-center:focus {
