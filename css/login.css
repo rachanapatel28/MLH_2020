@@ -108,16 +108,15 @@ input::placeholder{
     padding: 10px !important;
     width: 50px !important;
 }
-.bk-btn svg{
-    fill: rgba(46, 54, 85, 0.5) !important;
+.bk-btn img{
+    opacity: 0.5;
+    transition: 0.5s ease-in-out;
 }
-
-.bk-btn svg:hover   {
-    fill: rgb(46,54,85) !important;
-    /* fill: rgb(247,56,89); */
+.bk-btn img:hover{
+    opacity: 1;
 }
 .CD{
-    display: hide;
+    display: none;
 }
 .ED{
     display: none;
