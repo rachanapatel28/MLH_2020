@@ -58,8 +58,8 @@
             </a>
         </div>
         
-            <div class="register-box 4E">
-                <form action="employeeDetails.html"  method="GET"  enctype="multipart/form-data">
+        <form action="employeeDetails.html"  method="GET"  enctype="multipart/form-data">
+                <div class="register-box ER">
                     <h1>Employee Registeration</h1>
                     <!-- <div class="textbox">
                         <i class="fa fa-building" aria-hidden="true"></i>
@@ -93,8 +93,7 @@
                         <i class="fa fa-lock" aria-hidden="true"></i>
                         <input type="password" placeholder="Re-Enter Password" name="re-password" value="">
                     </div>
-                    <input class="btn" id='finalRegister4B' type="submit" name="" value="Continue">    
-                </form>
+                    <button id='btn-4E' type="button" class="btn">Continue</button>    
                 <!-- <button class="btn" id="businessDet">Continue</button> -->
                 <hr>
                 <p class="login_text">Already Registered ?</p>
@@ -102,7 +101,26 @@
                     <button class="btn">Login</button>
                 </a>
             </div>
+            <div class="register-box ED">
+                <h1>Employee Details</h1>
+                <div class="textbox">
+                    <i class="fa fa-building" aria-hidden="true"></i>
+                    <input type="text" placeholder="Company Name" name="companyName" value="">
+                </div>
+                <div class="textbox">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <input type="text" placeholder="Department" name="department" value="">
+                </div>
+                 <div class="textbox">
+                    <i class="fa fa-id-badge" aria-hidden="true"></i>
+                    <input type="text" placeholder="Designation" name="designation" value="">
+                </div>
+                <input class="btn" id='finalRegister4B' type="submit" name="" value="Register">    
+            <!-- <button class="btn" id="businessDet">Continue</button> -->
+            </div>
+        </form>
 
+            
 
             <!-- jQuery -->
     	    <script src="js/jquery.min.js"></script>

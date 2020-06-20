@@ -116,6 +116,13 @@ input::placeholder{
     fill: rgb(46,54,85) !important;
     /* fill: rgb(247,56,89); */
 }
+.CD{
+    display: hide;
+}
+.ED{
+    display: none;
+    
+}
 
 @media screen and (max-width: 548px){
     body{
@@ -138,7 +145,7 @@ input::placeholder{
         
     }
     .login-box,.register-box{
-        width: 90%wq;
+        width: 90%;
         -webkit-box-shadow: none !important;
         -moz-box-shadow: none !important;
         box-shadow: none !important;
