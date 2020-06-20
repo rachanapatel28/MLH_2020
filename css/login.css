@@ -16,7 +16,7 @@ body{
 /* #finalRegister4B{
     display: none;
 } */
-.login-box, .register-box{
+.login-box, .ER,.ED,.CD,.BR{
     width: 400px !important;
     position:absolute;
     top: 50%;

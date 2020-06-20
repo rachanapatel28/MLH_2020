@@ -1,6 +1,6 @@
 const ctn = document.getElementById('btn-4E');
 const ed = document.getElementsByClassName('ED');
-const  er= document.getElementsByClassName('4E');
+const  er= document.getElementsByClassName('ER');
 
 ctn.addEventListener('click',()=>{
     console.log('clicking Daaa');

@@ -41,7 +41,7 @@
     
     </head>
     <body>
-        <div class="bk-btn">
+        <div class="bk-btn" width=50px>
             <a href="index.html">
                 <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 219.151 219.151">
                     <g>
@@ -56,9 +56,8 @@
                 </svg>
             </a>
         </div>
-        
-            <div class="register-box 4B">
-                <form id="form" action="companyDetails.html"  method="GET"  enctype="multipart/form-data">
+        <form id="form" action="companyDetails.html"  method="GET"  enctype="multipart/form-data">
+            <div class="register-box BR">
                     <h1>Business Registeration</h1>
                     <!-- <div class="textbox">
                         <i class="fa fa-user" aria-hidden="true"></i>
@@ -98,16 +97,38 @@
                         <i class="fa fa-lock" aria-hidden="true"></i>
                         <input type="password" placeholder="Re-Enter Password" id="re_passwd" name="re-password" value="">
                     </div>
-                    <input class="btn" id='finalRegister4B' type="submit" name="" value="Continue">    
-                </form>
+                    <button id='btn-4E' type="button" class="btn">Continue</button>    
                 <!-- <button class="btn" id="businessDet">Continue</button> -->
                 <hr>
                 <p class="login_text">Already Registered ?</p>
                 <a href="login.html">
-                    <button class="btn">Login</button>
+                    <button type="button" class="btn">Login</button>
                 </a>
             </div>
-
+            <div class="register-box CD">
+                <form id="form" action="#"  method="GET"  enctype="multipart/form-data">
+                    <h1>Business Registeration</h1>
+                    <div class="textbox">
+                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <input type="text" placeholder="Owner Name" name="ownername" value="">
+                    </div>
+                    <div class="textbox">
+                        <i class="fa fa-building" aria-hidden="true"></i>
+                        <input type="text" placeholder="Company Name" name="companyName" value="">
+                    </div>
+                    <div class="textbox">
+                        <i class="fa fa-folder" aria-hidden="true"></i>
+                        <input type="text" placeholder="Company Category" name="companyCategory" value="">
+                    </div>
+                    <div class="textbox">
+                        <i class="fa fa-envelope" aria-hidden="true"></i>
+                        <input type="text" placeholder="Company Departments" name="companyDepartments" value="">
+                    </div>
+                    <input class="btn" id='finalRegister4B' type="submit" name="" value="Continue">    
+                </form>
+                <!-- <button class="btn" id="businessDet">Continue</button> -->
+            </div>
+        </form>
 
             <!-- jQuery -->
     	    <script src="js/jquery.min.js"></script>
