@@ -2,6 +2,7 @@ const ctn = document.getElementById('btn-4B');
 const cd = document.querySelector('.CD');
 const br = document.querySelector('.BR');
 const back_btn = document.querySelector('#back_a');
+const submit = document.querySelector('#finalRegister4B')
 
 ctn.addEventListener('click', () => {
 	br.classList.add('animate__animated', 'animate__fadeOut');
@@ -30,3 +31,8 @@ back_btn.addEventListener('click', (e) => {
 		back_btn.href = './index.html';
 	}
 });
+
+
+submit.addEventListener('click',()=>{
+	alert('Your Company has been Registered !!! \n Now Registers as an Employee !!!');
+})
